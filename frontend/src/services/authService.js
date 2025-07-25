@@ -1,11 +1,11 @@
 import axios from "axios";
 
 //  Use Vite env variable for API base
-const API = import.meta.env.VITE_API_BASE_URL || "https://clothecomm.onrender.com/api";
+const API = import.meta.env.VITE_API_BASE_URL || "https://clothecomm.onrender.com";
 
 //  Login
 export const loginUser = async (credentials) => {
-  const res = await axios.post(`${API}/auth/login`, credentials);
+  const res = await axios.post(`${API}/api/auth/login`, credentials);
 
   if (res.data.token) {
     // Store token in localStorage
@@ -17,7 +17,7 @@ export const loginUser = async (credentials) => {
 
 //  Register
 export const registerUser = async (details) => {
-  const res = await axios.post(`${API}/auth/signup`, details);
+  const res = await axios.post(`${API}/api/auth/signup`, details);
   return res.data; // { message: "User created", user: … }
 };
 
@@ -30,7 +30,7 @@ export const getProfile = async () => {
   }
 
   try {
-    const res = await axios.get(`${API}/auth/profile`, {
+    const res = await axios.get(`${API}/api/auth/profile`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },

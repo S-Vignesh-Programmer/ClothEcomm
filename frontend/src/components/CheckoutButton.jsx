@@ -10,7 +10,7 @@ const CheckoutButton = ({ cartItems }) => {
 
     try {
       const response = await axios.post(
-        `${import.meta.env.VITE_API_BASE_URL}/checkout`,
+        `${import.meta.env.VITE_API_BASE_URL}/api/checkout`,
         {
           items: cartItems,
         }

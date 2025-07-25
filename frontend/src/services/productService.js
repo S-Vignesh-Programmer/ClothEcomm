@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = import.meta.env.VITE_API_BASE_URL || "https://clothecomm.onrender.com/api";
+const API = import.meta.env.VITE_API_BASE_URL+"/api" || "https://clothecomm.onrender.com"+"/api";
 
 export const getAllProducts = async (query = "") => {
   const res = await axios.get(`${API}/products?${query}`);
