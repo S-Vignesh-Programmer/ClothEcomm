@@ -1,0 +1,290 @@
+[
+    {
+      "title": "Men's Casual Shirt",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop",
+      "price": 899,
+      "category": "Men",
+      "description": "Comfortable and breathable casual shirt for men.",
+      "rating": 4.2
+    },
+    {
+      "title": "Men's Denim Jeans",
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=500&fit=crop",
+      "price": 1599,
+      "category": "Men",
+      "description": "Classic blue denim jeans with perfect fit.",
+      "rating": 4.4
+    },
+    {
+      "title": "Men's Leather Jacket",
+      "image": "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500&h=500&fit=crop",
+      "price": 3299,
+      "category": "Men",
+      "description": "Premium leather jacket for style and warmth.",
+      "rating": 4.7
+    },
+    {
+      "title": "Men's Polo Shirt",
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500&h=500&fit=crop",
+      "price": 799,
+      "category": "Men",
+      "description": "Classic polo shirt for casual and semi-formal wear.",
+      "rating": 4.1
+    },
+    {
+      "title": "Men's Formal Shoes",
+      "image": "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=500&h=500&fit=crop",
+      "price": 2499,
+      "category": "Men",
+      "description": "Elegant formal shoes for office and special occasions.",
+      "rating": 4.5
+    },
+    {
+      "title": "Men's Hoodie",
+      "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&h=500&fit=crop",
+      "price": 1299,
+      "category": "Men",
+      "description": "Comfortable pullover hoodie for casual wear.",
+      "rating": 4.3
+    },
+    {
+      "title": "Men's Blazer",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop",
+      "price": 2799,
+      "category": "Men",
+      "description": "Smart casual blazer for business meetings.",
+      "rating": 4.4
+    },
+    {
+      "title": "Men's T-Shirt",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop",
+      "price": 599,
+      "category": "Men",
+      "description": "Basic cotton t-shirt for everyday comfort.",
+      "rating": 4.0
+    },
+    {
+      "title": "Men's Chinos",
+      "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&h=500&fit=crop",
+      "price": 1199,
+      "category": "Men",
+      "description": "Stylish chino pants for smart-casual look.",
+      "rating": 4.2
+    },
+     {
+      "title": "Women's Summer Dress",
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+      "price": 1299,
+      "category": "Women",
+      "description": "Elegant and lightweight summer dress for women.",
+      "rating": 4.5
+    },
+    {
+      "title": "Men's Phants",
+      "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&h=500&fit=crop",
+      "price": 699,
+      "category": "Men",
+      "description": "Comfortable summer phants for hot weather.",
+      "rating": 4.0
+    },
+    {
+      "title": "Women's Cardigan",
+      "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&h=500&fit=crop",
+      "price": 1599,
+      "category": "Women",
+      "description": "Knit cardigan for layering in cool weather.",
+      "rating": 4.2
+    },
+    {
+      "title": "Men's Loafers",
+      "image": "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=500&h=500&fit=crop",
+      "price": 2199,
+      "category": "Men",
+      "description": "Classic leather loafers for smart-casual wear.",
+      "rating": 4.4
+    },
+    {
+      "title": "Men's Track Suit",
+      "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&h=500&fit=crop",
+      "price": 2399,
+      "category": "Men",
+      "description": "Complete tracksuit for workouts and leisure.",
+      "rating": 4.3
+    },
+     {
+      "title": "Men's Dress",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop",
+      "price": 1399,
+      "category": "Men",
+      "description": "Crisp white dress for formal occasions.",
+      "rating": 4.3
+    },
+    {
+      "title": "Women's Jeans",
+      "image": "https://images.unsplash.com/photo-1541840031508-326b77c9a17e?w=500&h=500&fit=crop",
+      "price": 1399,
+      "category": "Women",
+      "description": "High-waisted skinny jeans with stretch comfort.",
+      "rating": 4.4
+    },
+    {
+      "title": "Women's Cardigan",
+      "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&h=500&fit=crop",
+      "price": 1199,
+      "category": "Women",
+      "description": "Cozy knit cardigan for layering.",
+      "rating": 4.1
+    },
+    {
+      "title": "Women's Scarf",
+      "image": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=500&h=500&fit=crop",
+      "price": 599,
+      "category": "Women",
+      "description": "Soft silk scarf to complement any outfit.",
+      "rating": 4.0
+    },
+     {
+       "title": "Bell-Bottom Jeans",
+       "image": "https://images.unsplash.com/photo-1541840031508-326b77c9a17e?w=500&h=500&fit=crop",
+       "price": 1899,
+       "category": "Women",
+       "description": "Retro high-waisted bell-bottom jeans with wide flare and vintage wash.",
+       "rating": 4.6
+     },
+    {
+      "title": "Men's T-Shirt",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop",
+      "price": 699,
+      "category": "Men",
+      "description": "Basic cotton t-shirt in various colors.",
+      "rating": 4.0
+    },
+    {
+      "title": "Women's Sweater",
+      "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&h=500&fit=crop",
+      "price": 1399,
+      "category": "Women",
+      "description": "Warm wool sweater for winter comfort.",
+      "rating": 4.4
+    },
+    {
+      "title": "Muscle Tank",
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500&h=500&fit=crop",
+      "price": 799,
+      "category": "Men",
+      "description": "Athletic muscle tank in black with dropped armholes and curved hem.",
+      "rating": 4.0
+    },
+    {
+      "title": "Kids Graphic T-Shirt",
+      "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=500&fit=crop",
+      "price": 499,
+      "category": "Kids",
+      "description": "Colorful t-shirt for kids with fun graphics.",
+      "rating": 4.3
+    },
+    {
+      "title": "Henley Dress",
+      "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&h=500&fit=crop",
+      "price": 1399,
+      "category": "Women",
+      "description": "Casual henley dress in heather gray with button placket and side pockets.",
+      "rating": 4.1
+    },
+    {
+      "title": "Mandarin Collar Shirt",
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&h=500&fit=crop",
+      "price": 1599,
+      "category": "Men",
+      "description": "Minimalist white shirt with traditional mandarin collar and hidden buttons.",
+      "rating": 4.3
+    },
+   {
+     "title": "Flannel Pajama Set",
+     "image": "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=500&h=500&fit=crop",
+     "price": 1499,
+     "category": "Men",
+     "description": "Cozy flannel pajama set in navy plaid with button-up top and drawstring pants.",
+     "rating": 4.3
+   },
+    {
+      "title": "Phants",
+      "image": "https://images.unsplash.com/photo-1519235106638-30cc49b5dbc5?w=500&h=500&fit=crop",
+      "price": 399,
+      "category": "Women",
+      "description": "Comfortable cotton shorts for summer.",
+      "rating": 4.0
+    },
+    {
+      "title": "Kids Dress",
+      "image": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=500&h=500&fit=crop",
+      "price": 899,
+      "category": "Kids",
+      "description": "Pretty dress for special occasions.",
+      "rating": 4.4
+    },
+    {
+      "title": "Tiered Ruffle Dress",
+      "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=500&h=500&fit=crop",
+      "price": 1999,
+      "category": "Women",
+      "description": "Whimsical tiered ruffle dress in soft pink with adjustable spaghetti straps.",
+      "rating": 4.4
+    },
+    {
+      "title": "Kids Jeans",
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=500&fit=crop",
+      "price": 799,
+      "category": "Kids",
+      "description": "Comfortable jeans for everyday play.",
+      "rating": 4.2
+    },
+    {
+      "title": "Henley Long Sleeve",
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500&h=500&fit=crop",
+      "price": 899,
+      "category": "Men",
+      "description": "Comfortable cotton henley in heather gray with three-button placket.",
+      "rating": 4.1
+    },
+    {
+      "title": "Bohemian Maxi Dress",
+      "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop",
+      "price": 2299,
+      "category": "Women",
+      "description": "Flowing bohemian maxi dress with intricate embroidery and bell sleeves.",
+      "rating": 4.6
+    },
+    {
+      "title": "Kids Pajamas",
+      "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=500&fit=crop",
+      "price": 699,
+      "category": "Kids",
+      "description": "Cozy pajama set for comfortable sleep.",
+      "rating": 4.3
+    },
+    {
+      "title": "Cashmere Sweater Vest",
+      "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=500&fit=crop",
+      "price": 2599,
+      "category": "Men",
+      "description": "Premium cashmere V-neck sweater vest in charcoal gray for layering.",
+      "rating": 4.7
+    },
+    {
+      "title": "Plaid Mini Dress",
+      "image": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=500&h=500&fit=crop",
+      "price": 1599,
+      "category": "Men",
+      "description": "Trendy plaid mini dress with puff sleeves and cinched waist detail.",
+      "rating": 4.4
+    },
+    {
+      "title": "Women's Summer Dress",
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+      "price": 1299,
+      "category": "Women",
+      "description": "Elegant and lightweight summer dress for women.",
+      "rating": 4.5
+    }
+]    
