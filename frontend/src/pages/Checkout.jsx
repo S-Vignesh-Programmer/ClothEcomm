@@ -49,11 +49,6 @@ const Checkout = () => {
     };
   }, [cartItems]);
 
-  // useEffect(() => {
-  //   if (!user) {
-  //     navigate("/login");
-  //   }
-  // }, [user, navigate]);
 
   // Use useCallback to prevent function recreation on every render
   const handleAddressChange = useCallback((e) => {

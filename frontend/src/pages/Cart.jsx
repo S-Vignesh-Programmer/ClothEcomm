@@ -1,20 +1,12 @@
 import { useCart } from "../context/CartContext";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
-import { useEffect } from "react";
 import { ShoppingBag, Trash2, ShoppingCart, ArrowRight } from "lucide-react";
 
 const Cart = () => {
   const { cartItems, removeFromCart, clearCart } = useCart();
   const { user } = useAuth();
   const navigate = useNavigate();
-
-  // // Redirect to login if user not logged in
-  // useEffect(() => {
-  //   if (!user) {
-  //     navigate("/login");
-  //   }
-  // }, [user, navigate]);
 
   const total = cartItems.reduce((acc, item) => acc + item.price, 0);
 

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Mail, Lock, User, Eye, EyeOff, ArrowLeft } from "lucide-react";
 import { registerUser } from "../services/authService";
-import { useAuth } from "../context/AuthContext";
 import { useNavigate, Link } from "react-router-dom";
 
 const Signup = () => {

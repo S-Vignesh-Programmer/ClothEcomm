@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //  Use Vite env variable for API base
-const API = import.meta.env.VITE_API_BASE_URL || "https://clothecomm.onrender.com";
+const API = import.meta.env.VITE_API_BASE_URL;
 
 //  Login
 export const loginUser = async (credentials) => {

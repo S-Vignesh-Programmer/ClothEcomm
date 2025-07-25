@@ -10,27 +10,37 @@ import paymentRoutes from "./routes/paymentRoutes.js";
 dotenv.config();
 const app = express();
 
-// Allow only your frontend for security
+//ORS Middleware (critical for frontend requests like login, Stripe, etc.)
+const allowedOrigin = process.env.FRONTEND_URL;
+
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL,
+    origin: allowedOrigin,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
+    allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
 
+// Handle preflight requests
+app.options("*", cors());
+
+// JSON body parser
 app.use(express.json());
 
+// Test route
 app.get("/", (req, res) => {
   res.send("API is running...");
 });
 
+// API routes
 app.use("/api/auth", authRoutes);
 app.use("/api/products", productRoutes);
 app.use("/api/cart", cartRoutes);
 app.use("/api/payment", paymentRoutes);
 
-const PORT = process.env.PORT || 5010;
-
+// Start server
+const PORT = process.env.PORT;
 connectDB().then(() => {
   app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 });

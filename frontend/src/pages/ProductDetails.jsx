@@ -19,8 +19,7 @@ import {
 } from "lucide-react";
 
 const BASE_IMAGE_URL =
-  import.meta.env.VITE_API_BASE_URL?.replace("/api", "") ||
-  "https://clothecomm.onrender.com"+"/api";
+  import.meta.env.VITE_API_BASE_URL?.replace("/api", "")
 
 const ProductDetails = () => {
   const { id } = useParams();
